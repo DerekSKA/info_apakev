@@ -58,3 +58,5 @@ npm run build
 Los archivos optimizados para producción se generan en la carpeta `dist`.
 
 ## Objetivo del proyecto
+
+Explicar de manera clara, visual y organizada los tres principios fundamentales de la seguridad de la información, promoviendo la comprensión de su importancia en la protección de los datos y los sistemas digitales.
