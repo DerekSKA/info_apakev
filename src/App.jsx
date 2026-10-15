@@ -1,3 +1,4 @@
+
 import "./App.css";
 
 const principles = [
@@ -135,7 +136,9 @@ function App() {
           <span className="brand-icon">
             <Icon name="lock" size={21} />
           </span>
-          <span>INFO<span className="brand-light">SEC</span></span>
+          <span>
+            INFO<span className="brand-light">SEC</span>
+          </span>
         </a>
 
         <nav aria-label="Navegación principal">
@@ -170,7 +173,10 @@ function App() {
             </a>
           </div>
 
-          <div className="hero-visual" aria-label="Tres principios conectados">
+          <div
+            className="hero-visual"
+            aria-label="Tres principios conectados"
+          >
             <div className="orbit orbit-outer" />
             <div className="orbit orbit-inner" />
 
@@ -184,10 +190,12 @@ function App() {
               <Icon name="lock" size={24} />
               <span>Confidencialidad</span>
             </div>
+
             <div className="orbit-node node-green">
               <Icon name="check" size={24} />
               <span>Integridad</span>
             </div>
+
             <div className="orbit-node node-amber">
               <Icon name="server" size={24} />
               <span>Disponibilidad</span>
@@ -213,6 +221,7 @@ function App() {
               <span className="section-kicker">LOS TRES PILARES</span>
               <h2>Tres principios, un objetivo</h2>
             </div>
+
             <p>
               Cada principio cumple una función distinta y los tres
               se complementan para proteger la información.
@@ -248,13 +257,16 @@ function App() {
                 <div className="scenario-icon">
                   <Icon name={principle.icon} size={25} />
                 </div>
+
                 <div>
                   <h3>{principle.name}</h3>
                   <p>
                     {principle.color === "blue" &&
                       "Solo tú y las personas autorizadas pueden consultar tus datos."}
+
                     {principle.color === "green" &&
                       "Los saldos y movimientos deben ser exactos y no alterarse sin autorización."}
+
                     {principle.color === "amber" &&
                       "La aplicación debe funcionar cuando necesites consultar o realizar operaciones."}
                   </p>
@@ -276,6 +288,7 @@ function App() {
         <section className="conclusion-section" id="conclusion">
           <span className="section-kicker">PARA RECORDAR</span>
           <h2>La seguridad necesita equilibrio</h2>
+
           <p>
             La confidencialidad limita el acceso, la integridad protege
             la exactitud y la disponibilidad permite utilizar la información
@@ -283,6 +296,7 @@ function App() {
             a los otros: juntos ofrecen una visión integral de la protección
             de la información.
           </p>
+
           <div className="memory-line">
             <span>Confidencialidad</span>
             <span className="memory-dot">•</span>
@@ -298,9 +312,17 @@ function App() {
           <span className="brand-icon">
             <Icon name="lock" size={19} />
           </span>
-          <span>INFO<span className="brand-light">SEC</span></span>
+          <span>
+            INFO<span className="brand-light">SEC</span>
+          </span>
         </a>
-        <p>Infografía educativa sobre seguridad informática.</p>
+
+        <p>
+          Infografía educativa sobre seguridad informática.
+          <br />
+          Diseñado y desarrollado por <strong>Kevin Apablaza</strong>.
+        </p>
+
         <a href="#inicio">Volver al inicio ↑</a>
       </footer>
     </>
